@@ -2,7 +2,7 @@
 public class Main {
    public static void main(String[] args) {
       Student s1 = new Student("Ryan Oates", 12345, ": Male", 26, "10/10/1995", "Senior", "123456",
-            new String[] { "CIS232", "Calculus 1", "American Literatre" }, 120, 90, 4.0);
+            new String[] { "CIS232", "Calculus 1", "American Literatre" }, 120, 120, 4.0);
       s1.isNotBirthday();
       s1.showStudentDetails();
    }
@@ -13,8 +13,9 @@ public class Main {
  * Name: Ryan Oates
  * Phone Number: 12345
  * Gender: Male
- * TODO age
- * TODO dateOfBirth
+ * Age: 26
+ * Date of Birth: 10/10/1995
+ * // End of inital Person class fields that are inherited by the Student class
  * Grade Level: Senior
  * Student ID: 123456
  * Courses:
