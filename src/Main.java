@@ -15,7 +15,8 @@ public class Main {
  * Gender: Male
  * Age: 26
  * Date of Birth: 10/10/1995
- * // End of inital Person class fields that are inherited by the Student class
+ * // End of inital Person class fields that are OUTPUT and inherited by the
+ * Student class
  * Grade Level: Senior
  * Student ID: 123456
  * Courses:
@@ -25,4 +26,5 @@ public class Main {
  * Total Units: 120.0
  * Completed Units: 120.0
  * GPA: 4.0
+ * // End of Student class fields that are OUTPUT
  */
