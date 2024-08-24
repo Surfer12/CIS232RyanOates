@@ -8,7 +8,7 @@ public class Student extends Person {
 
    public Student(String name, int phoneNumber, String gender, int Age, String dateOfBirth, String grade,
          String studentID, String[] courses, double totalUnits, double completedUnits, double GPA) {
-      super(name, phoneNumber, gender, Age, dateOfBirth);
+      super(name, phoneNumber, gender, Age, dateOfBirth, false);
       this.gradeLevel = grade;
       this.studentID = studentID;
       this.courses = courses;
@@ -16,8 +16,8 @@ public class Student extends Person {
       this.completedUnits = completedUnits;
       this.GPA = GPA;
    }
-   public void showStudentDetails(Student s) {
-      super.showPersonDetails(s);
+   public void showStudentDetails() {
+      super.showPersonDetails();
       System.out.println("Grade Level: " + gradeLevel);
       System.out.println("Student ID: " + studentID);
       System.out.println("Courses: ");

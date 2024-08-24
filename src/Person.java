@@ -4,6 +4,7 @@ public class Person {
     String gender;
     int age;
     String dateOfBirth;
+    boolean isBirthday;
 
     // .this inherits the properties of the fields from the Person class
     public Person() {
@@ -12,31 +13,37 @@ public class Person {
         this.gender = "MALE";
         this.age = 18;
         this.dateOfBirth = "01/01/2000";
+        this.isBirthday = false;   
+        
     }
 
-    public Person(String name, int phoneNumber, String gender, int age, String dateOfBirth) {
+    public Person(String name, int phoneNumber, String gender, int age, String dateOfBirth, boolean isBirthday) {
         this.name = name;
         this.phoneNumber = phoneNumber;
         this.gender = gender;
         this.age = age;
         this.dateOfBirth = dateOfBirth;
+        this.isBirthday = isBirthday;
     }
 
-    public void showPersonDetails(Person p) {
+    public void showPersonDetails() {
         System.out.println("Name: " + name);
         System.out.println("Phone Number: " + phoneNumber);
         System.out.println("Gender" + gender);
         System.out.println("Age: " + age);
-        System.out.println("Date of Birth: " + dateOfBirth);    
+        System.out.println("Date of Birth: " + dateOfBirth);
+        if(isBirthday) {
+            isBirthday();
+        } else {
+            isNotBirthday();
+        }
     }
 
-    public boolean isBirthday() {
+    public void isBirthday() {
         System.out.println("Happy Birthday!" + "\n");
-        return true;
     }
 
-    public boolean isNotBirthday() {
+    public void isNotBirthday() {
         System.out.println("Today is not your birthday");
-        return false;
     }
 }
