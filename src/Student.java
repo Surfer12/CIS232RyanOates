@@ -16,9 +16,8 @@ public class Student extends Person {
       this.completedUnits = completedUnits;
       this.GPA = GPA;
    }
-
-   public void showStudentDetails() {
-      super.showPersonDetails(name, phoneNumber, gender, age, dateOfBirth);
+   public void showStudentDetails(Student s) {
+      super.showPersonDetails(s);
       System.out.println("Grade Level: " + gradeLevel);
       System.out.println("Student ID: " + studentID);
       System.out.println("Courses: ");

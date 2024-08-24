@@ -22,12 +22,7 @@ public class Person {
         this.dateOfBirth = dateOfBirth;
     }
 
-    public void showPersonDetails(String name, int phoneNumber, String gender, int age, String dateOfBirth) {
-        this.name = name;
-        this.phoneNumber = phoneNumber;
-        this.gender = gender;
-        this.age = age;
-        this.dateOfBirth = dateOfBirth;
+    public void showPersonDetails(Person p) {
         System.out.println("Name: " + name);
         System.out.println("Phone Number: " + phoneNumber);
         System.out.println("Gender" + gender);
