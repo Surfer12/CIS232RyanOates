@@ -33,17 +33,17 @@ public class Person {
         System.out.println("Age: " + age);
         System.out.println("Date of Birth: " + dateOfBirth);
         if (isBirthday) {
-            isBirthday();
+            handleBirthday();
         } else {
-            isNotBirthday();
+            handlNotBirthday();
         }
     }
 
-    public void isBirthday() {
+    public void handleBirthday() {
         System.out.println("Happy Birthday!" + "\n");
     }
 
-    public void isNotBirthday() {
+    public void handlNotBirthday() {
         System.out.println("Today is not their birthday");
     }
 }
