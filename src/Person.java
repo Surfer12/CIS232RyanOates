@@ -6,13 +6,13 @@ public class Person {
     protected String dateOfBirth;
     protected boolean isBirthday;
 
-    // .this inherits the properties of the fields from the Person class
+    // .this inherits the fields from the Person class
     public Person() {
         this.name = "John Doe";
         this.phoneNumber = 123456789;
         this.gender = "MALE";
         this.age = 18;
-        this.dateOfBirth = "01/01/2000";
+        this.dateOfBirth = "01/01/2001";
         this.isBirthday = false;
 
     }
@@ -44,6 +44,6 @@ public class Person {
     }
 
     public void isNotBirthday() {
-        System.out.println("Today is their your birthday");
+        System.out.println("Today is not their birthday");
     }
 }
