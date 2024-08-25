@@ -16,11 +16,12 @@ public class Student extends Person {
       this.completedUnits = completedUnits;
       this.GPA = GPA;
    }
+
    public void showStudentDetails() {
       super.showPersonDetails();
       System.out.println("Grade Level: " + gradeLevel);
       System.out.println("Student ID: " + studentID);
-      System.out.println("Courses: ");
+      System.out.println("Courses listed below: ");
       for (String course : courses) {
          System.out.println(course);
       }
