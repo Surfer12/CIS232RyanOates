@@ -6,7 +6,7 @@ public class Student extends Person {
    private double completedUnits;
    private double GPA;
 
-   public Student(String name, int phoneNumber, String gender, int Age, String dateOfBirth, String grade,
+   public Student(String name, int phoneNumber, String gender, int Age, String dateOfBirth, boolean isBirthday,String grade,
          String studentID, String[] courses, double totalUnits, double completedUnits, double GPA) {
       super(name, phoneNumber, gender, Age, dateOfBirth, false);
       this.gradeLevel = grade;
