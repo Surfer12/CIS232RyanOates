@@ -39,6 +39,58 @@ public class Person {
         System.out.println("Happy Birthday!" + "\n");
     }
 
+    public static void handleNotBirthday() {
+        System.out.println("Today is not their birthday");
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public int getPhoneNumber() {
+        return phoneNumber;
+    }
+
+    public void setPhoneNumber(int phoneNumber) {
+        this.phoneNumber = phoneNumber;
+    }
+
+    public String getGender() {
+        return gender;
+    }
+
+    public void setGender(String gender) {
+        this.gender = gender;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
+
+    public String getDateOfBirth() {
+        return dateOfBirth;
+    }
+
+    public void setDateOfBirth(String dateOfBirth) {
+        this.dateOfBirth = dateOfBirth;
+    }
+
+    public boolean isBirthday() {
+        return isBirthday;
+    }
+
+    public void setBirthday(boolean isBirthday) {
+        this.isBirthday = isBirthday;
+    }
+
     public static void handlNotBirthday() {
         System.out.println("Today is not their birthday");
     }

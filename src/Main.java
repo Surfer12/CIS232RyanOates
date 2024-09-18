@@ -6,6 +6,11 @@ public class Main {
             new String[] { "CIS232", "Calculus 1", "American Literature" }, 120, 120, 4.0);
       showPersonDetails(s1);
    }
+
+   private static void showPersonDetails(Student s1) {
+      // TODO Auto-generated method stub
+      throw new UnsupportedOperationException("Unimplemented method 'showPersonDetails'");
+   }
 }
 
 /*
