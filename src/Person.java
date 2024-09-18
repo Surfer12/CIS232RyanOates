@@ -29,21 +29,17 @@ public class Person {
     public void showPersonDetails() {
         System.out.println("Name: " + name);
         System.out.println("Phone Number: " + phoneNumber);
-        System.out.println("Gender" + gender);
+        System.out.println("Gender: " + gender);
         System.out.println("Age: " + age);
         System.out.println("Date of Birth: " + dateOfBirth);
-        if (isBirthday) {
-            handleBirthday();
-        } else {
-            handlNotBirthday();
-        }
+        System.out.println("Is Birthday: " + isBirthday);
     }
 
-    public void handleBirthday() {
+    public static void handleBirthday() {
         System.out.println("Happy Birthday!" + "\n");
     }
 
-    public void handlNotBirthday() {
+    public static void handlNotBirthday() {
         System.out.println("Today is not their birthday");
     }
 }
